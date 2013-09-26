@@ -1,0 +1,8 @@
+NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 26Sep2013, 10:59:49.
+NOTE 10179:  Opened basin model "Bloomingdale" at time 26Sep2013, 10:59:49.
+WARNING 10019:  Project "Bloomingdale" was updated from Version 3.4 to Version 3.5.
+NOTE 10179:  Opened basin model "Bloomingdale" at time 26Sep2013, 10:59:53.
+WARNING 40031:  Element name "z2" is already in use.
+NOTE 40043:  The basin model contains 28 elements with no downstream connection: MM1, z2, MM2a, MM7, MM2b, MM8, MM6, MSF1, MSF2, MM3, MM4, MM5, aa2, z1, aa4, aa5, aa3MM, u6, R-z2, R-MM7, R-MM1, R-MM2, R-MM2b, R-MM8, R-MSF1, R-aa4, r-aa3MM, R-aa5
+NOTE 40043:  The basin model contains 21 elements with no downstream connection: MM1, z2, MM2a, MM7, MM8, MM6, MSF1, z1, aa4, aa5, u6, RIandTFlood, J-MM1, J-MM8, J-MSF1, J-aa2, J-MSF2, J-MM5, J-MM4, J-MM6, Inlet-aa3MM
+NOTE 10187:  Closed project "Bloomingdale" at time 26Sep2013, 13:52:55.
