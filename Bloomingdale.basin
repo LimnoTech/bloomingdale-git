@@ -1,6 +1,6 @@
 Basin: Bloomingdale
      Last Modified Date: 26 September 2013
-     Last Modified Time: 17:48:12
+     Last Modified Time: 19:46:14
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -12,206 +12,6 @@ Basin: Bloomingdale
      Enable Sediment Routing: No
 
      Enable Quality Routing: No
-End:
-
-Subbasin: MM1
-     Canvas X: 1308969.3949860937
-     Canvas Y: 461957.3820806201
-     Area: 0.160
-
-     Canopy 1: SMA
-     Initial Canopy Storage Percent: 0
-     Canopy Maximum Storage: 0
-     End Canopy:
-
-     Surface 1: SMA
-     Initial Surface Storage Percent: 0
-     Surface Maximum Storage: 0
-     End Surface:
-
-     LossRate 1: Initial+Constant
-     Percent Impervious Area: 45
-     Initial Loss: 0.15
-     Constant Loss Rate: 1
-
-     Transform: Kinematic Wave
-
-     Plane: 1
-     Number of Increments: 5
-
-     Baseflow: Recession
-End:
-
-Subbasin: z2
-     Canvas X: 1307545.7990668064
-     Canvas Y: 461493.00052406115
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: MM2a
-     Canvas X: 1309920.9965364195
-     Canvas Y: 461721.3848961393
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: MM7
-     Canvas X: 1308215.7265582357
-     Canvas Y: 459665.11067199626
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: MM8
-     Canvas X: 1308763.8490512234
-     Canvas Y: 458947.77911127347
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: MM6
-     Canvas X: 1309190.1665457692
-     Canvas Y: 458978.23036088387
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: MSF1
-     Canvas X: 1309129.2640465484
-     Canvas Y: 458125.5953717921
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: z1
-     Canvas X: 1306487.6181428444
-     Canvas Y: 458456.62481605704
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: aa4
-     Canvas X: 1308329.9187442749
-     Canvas Y: 456583.87296501605
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: aa5
-     Canvas X: 1309251.06904499
-     Canvas Y: 455632.2714146904
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: u6
-     Canvas X: 1309129.2640465484
-     Canvas Y: 454630.32298630883
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Reservoir: RIandTFlood
-     Canvas X: 1308985.648195843
-     Canvas Y: 454247.8123445194
-
-     Route: Modified Puls
-End:
-
-Sink: Sink-1
-     Canvas X: 1306007.099160755
-     Canvas Y: 459169.6572207305
 End:
 
 Junction: J-MM1
@@ -229,43 +29,9 @@ Junction: J-MSF1
      Canvas Y: 457301.36564179545
 End:
 
-Subbasin: aa2
-     Canvas X: 1309981.8990356403
-     Canvas Y: 457105.47850984294
-     Downstream: J-aa2
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
 Junction: J-aa2
      Canvas X: 1309760.0709449658
      Canvas Y: 456932.93126265693
-End:
-
-Subbasin: MSF2
-     Canvas X: 1309532.7431038865
-     Canvas Y: 457904.8238121165
-     Downstream: J-MSF2
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
 End:
 
 Junction: J-MSF2
@@ -273,43 +39,9 @@ Junction: J-MSF2
      Canvas Y: 457366.9484077697
 End:
 
-Subbasin: MM5
-     Canvas X: 1310294.024344147
-     Canvas Y: 457600.3113160123
-     Downstream: J-MM5
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
 Junction: J-MM5
      Canvas X: 1309751.5608048656
      Canvas Y: 457775.43513258174
-End:
-
-Subbasin: MM4
-     Canvas X: 1310172.2193457054
-     Canvas Y: 458460.5591175067
-     Downstream: J-MM4
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
 End:
 
 Junction: J-MM4
@@ -317,81 +49,29 @@ Junction: J-MM4
      Canvas Y: 458450.8520788832
 End:
 
-Subbasin: MM2b
-     Canvas X: 1309494.6790418734
-     Canvas Y: 459794.5284828406
-     Downstream: J-MM6
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
-Subbasin: MM3
-     Canvas X: 1310316.862781355
-     Canvas Y: 459396.93504302716
-     Downstream: J-MM6
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
 Junction: J-MM6
      Canvas X: 1309751.5608048656
      Canvas Y: 458841.4951587562
 End:
 
-Subbasin: aa3MM
-     Canvas X: 1309258.6818573927
-     Canvas Y: 456599.0985898213
-     Downstream: J-aa3MM
-
-     Canopy: None
-
-     Surface: None
-
-     LossRate: Initial+Constant
-     Percent Impervious Area: 0.0
-
-     Transform: Clark
-
-     Baseflow: Recession
-End:
-
 Junction: J-aa3MM
      Canvas X: 1308926.0772151412
      Canvas Y: 456209.5693541356
-     Downstream: Inlet-aa3MM
 End:
 
-Diversion: Inlet-aa3MM
-     Canvas X: 1308856.175959812
-     Canvas Y: 456162.30839427764
+Source: Source-1
+     Canvas X: 1308973.2592602598
+     Canvas Y: 461730.11526970525
 
-     Diverter: None
-     End Diverter:
+     Flow Method: ZERO_FLOW
+     End Flow Method:
 End:
 
 Basin Schematic Properties:
-     Last View N: 456714.57765724737
-     Last View S: 455940.15490812453
-     Last View W: 1308483.549929928
-     Last View E: 1309530.297162259
+     Last View N: 458481.75859845284
+     Last View S: 456555.5758522733
+     Last View W: 1308600.5933794042
+     Last View E: 1310343.7887646968
      Maximum View N: 465388.4193821251
      Maximum View S: 453439.3490349956
      Maximum View W: 1305692.237775624
