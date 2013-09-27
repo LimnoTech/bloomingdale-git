@@ -1,0 +1,21 @@
+Gage Manager: Bloomingdale
+     Version: 3.5
+     Filepath Separator: \
+End:
+
+Gage: g-z2
+     Last Modified Date: 27 September 2013
+     Last Modified Time: 21:31:56
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //G-Z2/FLOW//5MIN/GAGE/
+End:
+

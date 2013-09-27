@@ -1,6 +1,6 @@
 Basin: Bloomingdale
      Last Modified Date: 27 September 2013
-     Last Modified Time: 21:09:58
+     Last Modified Time: 21:24:42
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -57,7 +57,10 @@ Reach: r-MM1
      From Canvas Y: 459854.34149762354
      Downstream: J-MM8
 
-     Route: Lag
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Shape: Trapezoid
+     Number of Increments: 2
      Channel Loss: None
 End:
 
@@ -101,7 +104,10 @@ Reach: r-MM8
      From Canvas Y: 458922.9189983999
      Downstream: J-MSF1
 
-     Route: Lag
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Shape: Trapezoid
+     Number of Increments: 2
      Channel Loss: None
 End:
 
@@ -217,7 +223,8 @@ Source: S-z1
      Canvas Y: 457782.07055650547
      Downstream: loc-z1
 
-     Flow Method: ZERO_FLOW
+     Flow Method: GAGE_FLOW
+     Flow Gage: 
      End Flow Method:
 End:
 
