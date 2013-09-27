@@ -1,6 +1,6 @@
 Basin: Bloomingdale
-     Last Modified Date: 26 September 2013
-     Last Modified Time: 19:46:14
+     Last Modified Date: 27 September 2013
+     Last Modified Time: 20:05:25
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -14,19 +14,9 @@ Basin: Bloomingdale
      Enable Quality Routing: No
 End:
 
-Junction: J-MM1
-     Canvas X: 1308849.485954239
-     Canvas Y: 459795.6741862136
-End:
-
-Junction: J-MM8
-     Canvas X: 1308917.567075041
-     Canvas Y: 458719.86897283106
-End:
-
 Junction: J-MSF1
-     Canvas X: 1308909.0569349406
-     Canvas Y: 457301.36564179545
+     Canvas X: 1308871.5160462926
+     Canvas Y: 457263.565363603
 End:
 
 Junction: J-aa2
@@ -59,19 +49,222 @@ Junction: J-aa3MM
      Canvas Y: 456209.5693541356
 End:
 
-Source: Source-1
-     Canvas X: 1308973.2592602598
-     Canvas Y: 461730.11526970525
+Junction: J-z1
+     Canvas X: 1307040.162726609
+     Canvas Y: 457367.5228381969
+End:
+
+Source: S-MM1
+     Canvas X: 1308779.326726827
+     Canvas Y: 460694.4296909473
+     Downstream: loc-MM1
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: 
+     End Flow Method:
+End:
+
+Diversion: loc-MM1
+     Canvas X: 1308779.326726827
+     Canvas Y: 460340.97947581875
+     Downstream: J-MM1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM1
+     Canvas X: 1308859.138065727
+     Canvas Y: 459985.4601258164
+     Downstream: in-MM1
+End:
+
+Diversion: in-MM1
+     Canvas X: 1308864.8388756483
+     Canvas Y: 459854.34149762354
+
+     Diverter: Specified
+     Flow Gage: 
+     End Diverter:
+End:
+
+Source: S-MM8
+     Canvas X: 1308767.925106984
+     Canvas Y: 459073.3305383879
+     Downstream: loc-MM8
 
      Flow Method: ZERO_FLOW
      End Flow Method:
 End:
 
+Diversion: loc-MM8
+     Canvas X: 1308773.6259169055
+     Canvas Y: 458879.5030010593
+     Downstream: J-MM8
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM8
+     Canvas X: 1308544.2275783503
+     Canvas Y: 459055.36071639386
+     Downstream: in-MM8
+End:
+
+Diversion: in-MM8
+     Canvas X: 1308539.4222593352
+     Canvas Y: 458922.9189983999
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-z2
+     Canvas X: 1307331.3210067842
+     Canvas Y: 460460.6964841687
+     Downstream: loc-z2
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-z2
+     Canvas X: 1307291.4153373342
+     Canvas Y: 460141.45112856873
+     Downstream: J-z2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-MM7
+     Canvas X: 1308140.836015627
+     Canvas Y: 459529.39533210214
+     Downstream: loc-MM7
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM7
+     Canvas X: 1308135.1352057057
+     Canvas Y: 459346.9694146164
+     Downstream: J-z2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-z2
+     Canvas X: 1307251.5967632756
+     Canvas Y: 459751.6192812122
+     Downstream: in-z2
+End:
+
+Diversion: in-z2
+     Canvas X: 1307188.8007587485
+     Canvas Y: 459598.25766091666
+
+     Diverter: None
+     End Diverter:
+End:
+
+Diversion: in-MM6
+     Canvas X: 1309755.1679701675
+     Canvas Y: 458730.706237794
+
+     Diverter: None
+     End Diverter:
+End:
+
+Diversion: in-MM4
+     Canvas X: 1309745.5573321371
+     Canvas Y: 458317.44880249136
+
+     Diverter: None
+     End Diverter:
+End:
+
+Diversion: in-MM5
+     Canvas X: 1309750.3626511523
+     Canvas Y: 457676.6577772185
+
+     Diverter: None
+     End Diverter:
+End:
+
+Diversion: in-MSF2
+     Canvas X: 1309683.0881849402
+     Canvas Y: 457320.56235414895
+
+     Diverter: None
+     End Diverter:
+End:
+
+Diversion: in-aa2
+     Canvas X: 1309755.1679701675
+     Canvas Y: 456818.03287421184
+
+     Diverter: None
+     End Diverter:
+End:
+
+Diversion: in-aa3M
+     Canvas X: 1308919.0424615317
+     Canvas Y: 456105.16206371173
+
+     Diverter: None
+     End Diverter:
+End:
+
+Diversion: in-z1
+     Canvas X: 1307069.0837503986
+     Canvas Y: 457208.36177623086
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-acMM2a
+     Canvas X: 1309879.5830416626
+     Canvas Y: 461293.0147326973
+     Downstream: loc-acMM2a
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-acMM2a
+     Canvas X: 1309839.6773722128
+     Canvas Y: 460950.96613741154
+     Downstream: J-acMM2a
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-acMM2a
+     Canvas X: 1309822.4424363794
+     Canvas Y: 460578.1341518176
+     Label X: 0.0
+     Label Y: -1.0
+     Downstream: in-acMM2a
+End:
+
+Diversion: in-acMM2a
+     Canvas X: 1309816.874132527
+     Canvas Y: 460429.6814869189
+
+     Diverter: None
+     End Diverter:
+End:
+
 Basin Schematic Properties:
-     Last View N: 458481.75859845284
-     Last View S: 456555.5758522733
-     Last View W: 1308600.5933794042
-     Last View E: 1310343.7887646968
+     Last View N: 459232.1492983378
+     Last View S: 456210.8064158888
+     Last View W: 1304702.7725655125
+     Last View E: 1309018.9766832967
      Maximum View N: 465388.4193821251
      Maximum View S: 453439.3490349956
      Maximum View W: 1305692.237775624
