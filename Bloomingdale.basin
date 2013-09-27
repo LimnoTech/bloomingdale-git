@@ -1,6 +1,6 @@
 Basin: Bloomingdale
      Last Modified Date: 27 September 2013
-     Last Modified Time: 20:42:32
+     Last Modified Time: 21:09:58
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -14,39 +14,10 @@ Basin: Bloomingdale
      Enable Quality Routing: No
 End:
 
-Junction: J-MSF1
-     Canvas X: 1308871.5160462926
-     Canvas Y: 457263.565363603
-End:
-
-Junction: J-aa2
-     Canvas X: 1309760.0709449658
-     Canvas Y: 456932.93126265693
-End:
-
-Junction: J-MM5
-     Canvas X: 1309733.5775149877
-     Canvas Y: 457824.3126604363
-End:
-
-Junction: J-MM4
-     Canvas X: 1309743.0506647653
-     Canvas Y: 458450.8520788832
-End:
-
-Junction: J-aa3MM
-     Canvas X: 1308926.0772151412
-     Canvas Y: 456209.5693541356
-End:
-
-Junction: J-z1
-     Canvas X: 1307040.162726609
-     Canvas Y: 457367.5228381969
-End:
-
 Source: S-MM1
      Canvas X: 1308779.326726827
      Canvas Y: 460694.4296909473
+     Area: 0.159
      Downstream: loc-MM1
 
      Flow Method: GAGE_FLOW
@@ -72,10 +43,22 @@ End:
 Diversion: in-MM1
      Canvas X: 1308864.8388756483
      Canvas Y: 459854.34149762354
+     Downstream: r-MM1
 
      Diverter: Specified
      Flow Gage: 
      End Diverter:
+End:
+
+Reach: r-MM1
+     Canvas X: 1308559.427432007
+     Canvas Y: 459080.29113843
+     From Canvas X: 1308864.8388756483
+     From Canvas Y: 459854.34149762354
+     Downstream: J-MM8
+
+     Route: Lag
+     Channel Loss: None
 End:
 
 Source: S-MM8
@@ -105,14 +88,71 @@ End:
 Diversion: in-MM8
      Canvas X: 1308539.4222593352
      Canvas Y: 458922.9189983999
+     Downstream: r-MM8
 
      Diverter: None
      End Diverter:
 End:
 
+Reach: r-MM8
+     Canvas X: 1308871.5160462926
+     Canvas Y: 457263.565363603
+     From Canvas X: 1308539.4222593352
+     From Canvas Y: 458922.9189983999
+     Downstream: J-MSF1
+
+     Route: Lag
+     Channel Loss: None
+End:
+
+Source: S-MSF1
+     Canvas X: 1309118.6252959014
+     Canvas Y: 458244.872671036
+     Downstream: loc-MSF1
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MSF1
+     Canvas X: 1309148.1658564035
+     Canvas Y: 457983.9310532688
+     Downstream: J-MSF1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MSF1
+     Canvas X: 1308871.5160462926
+     Canvas Y: 457263.565363603
+     Downstream: in-MSF1
+End:
+
+Diversion: in-MSF1
+     Canvas X: 1308867.530531635
+     Canvas Y: 457132.1782254627
+     Downstream: R-MSF1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: R-MSF1
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     From Canvas X: 1308867.530531635
+     From Canvas Y: 457132.1782254627
+     Downstream: J-aa3MM
+
+     Route: Lag
+     Channel Loss: None
+End:
+
 Source: S-z2
      Canvas X: 1307331.3210067842
      Canvas Y: 460460.6964841687
+     Area: 0.148
      Downstream: loc-z2
 
      Flow Method: ZERO_FLOW
@@ -155,9 +195,112 @@ End:
 Diversion: in-z2
      Canvas X: 1307188.8007587485
      Canvas Y: 459598.25766091666
+     Downstream: R-z2
 
      Diverter: None
      End Diverter:
+End:
+
+Reach: R-z2
+     Canvas X: 1307163.3789836175
+     Canvas Y: 457462.57699109655
+     From Canvas X: 1307188.8007587485
+     From Canvas Y: 459598.25766091666
+     Downstream: J-z1
+
+     Route: Lag
+     Channel Loss: None
+End:
+
+Source: S-z1
+     Canvas X: 1306720.9164684936
+     Canvas Y: 457782.07055650547
+     Downstream: loc-z1
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-z1
+     Canvas X: 1306730.763321994
+     Canvas Y: 457658.9848877474
+     Downstream: J-z1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-z1
+     Canvas X: 1307163.3789836175
+     Canvas Y: 457462.57699109655
+     Downstream: in-z1
+End:
+
+Diversion: in-z1
+     Canvas X: 1307282.1871180306
+     Canvas Y: 457215.87648021826
+     Downstream: R-z1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: R-z1
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     From Canvas X: 1307282.1871180306
+     From Canvas Y: 457215.87648021826
+     Downstream: J-aa3MM
+
+     Route: Lag
+     Channel Loss: None
+End:
+
+Source: S-acMM2a
+     Canvas X: 1309879.5830416626
+     Canvas Y: 461293.0147326973
+     Area: 0.0891
+     Downstream: loc-acMM2a
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-acMM2a
+     Canvas X: 1309839.6773722128
+     Canvas Y: 460950.96613741154
+     Downstream: J-acMM2a
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-acMM2a
+     Canvas X: 1309822.4424363794
+     Canvas Y: 460578.1341518176
+     Label X: 0.0
+     Label Y: -1.0
+     Downstream: in-acMM2a
+End:
+
+Diversion: in-acMM2a
+     Canvas X: 1309816.874132527
+     Canvas Y: 460429.6814869189
+     Downstream: r-MM2a
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MM2a
+     Canvas X: 1309751.5608048656
+     Canvas Y: 458841.4951587562
+     From Canvas X: 1309816.874132527
+     From Canvas Y: 460429.6814869189
+     Downstream: J-MM6
+
+     Route: Lag
+     Channel Loss: None
 End:
 
 Source: S-MM6
@@ -223,25 +366,109 @@ End:
 Diversion: in-MM6
      Canvas X: 1309755.1679701675
      Canvas Y: 458730.706237794
+     Downstream: r-MM6
 
      Diverter: None
      End Diverter:
+End:
+
+Reach: r-MM6
+     Canvas X: 1309743.0506647653
+     Canvas Y: 458450.8520788832
+     From Canvas X: 1309755.1679701675
+     From Canvas Y: 458730.706237794
+     Downstream: J-MM4
+
+     Route: Lag
+     Channel Loss: None
+End:
+
+Source: S-MM4
+     Canvas X: 1310231.319741475
+     Canvas Y: 458545.20170280576
+     Downstream: loc-MM4
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM4
+     Canvas X: 1310236.2431682253
+     Canvas Y: 458402.42232704634
+     Downstream: J-MM4
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM4
+     Canvas X: 1309743.0506647653
+     Canvas Y: 458450.8520788832
+     Downstream: in-MM4
 End:
 
 Diversion: in-MM4
      Canvas X: 1309745.5573321371
      Canvas Y: 458317.44880249136
+     Downstream: r-MM4
 
      Diverter: None
      End Diverter:
 End:
 
-Diversion: in-MM5
-     Canvas X: 1309750.3626511523
-     Canvas Y: 457676.6577772185
+Reach: r-MM4
+     Canvas X: 1309777.7185880397
+     Canvas Y: 458024.7825216351
+     From Canvas X: 1309745.5573321371
+     From Canvas Y: 458317.44880249136
+     Downstream: J-MM5
+
+     Route: Lag
+     Channel Loss: None
+End:
+
+Source: S-MM5
+     Canvas X: 1310368.2532355178
+     Canvas Y: 457756.87836513
+     Downstream: loc-MM5
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM5
+     Canvas X: 1310364.2865122645
+     Canvas Y: 457625.97649777064
+     Downstream: J-MM5
 
      Diverter: None
      End Diverter:
+End:
+
+Junction: J-MM5
+     Canvas X: 1309777.7185880397
+     Canvas Y: 458024.7825216351
+     Downstream: in-MM5
+End:
+
+Diversion: in-MM5
+     Canvas X: 1309812.1825752922
+     Canvas Y: 457906.6202796273
+     Downstream: r-MM5
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MM5
+     Canvas X: 1309777.7185880397
+     Canvas Y: 457591.2195847887
+     From Canvas X: 1309812.1825752922
+     From Canvas Y: 457906.6202796273
+     Downstream: J-MSF2
+
+     Route: Lag
+     Channel Loss: None
 End:
 
 Source: S-MSF2
@@ -263,109 +490,185 @@ Diversion: loc-MSF2
 End:
 
 Junction: J-MSF2
-     Canvas X: 1309760.0709449658
-     Canvas Y: 457366.9484077697
+     Canvas X: 1309777.7185880397
+     Canvas Y: 457591.2195847887
      Downstream: in-MSF2
 End:
 
 Diversion: in-MSF2
-     Canvas X: 1309622.5092638948
-     Canvas Y: 457328.4722537722
+     Canvas X: 1309758.0248810386
+     Canvas Y: 457399.20594152604
+     Downstream: r-MSF2
 
      Diverter: None
      End Diverter:
+End:
+
+Reach: r-MSF2
+     Canvas X: 1309760.0709449658
+     Canvas Y: 456932.93126265693
+     From Canvas X: 1309758.0248810386
+     From Canvas Y: 457399.20594152604
+     Downstream: J-aa2
+
+     Route: Lag
+     Channel Loss: None
+End:
+
+Source: S-aa2
+     Canvas X: 1310093.4637924659
+     Canvas Y: 457132.17822546273
+     Downstream: loc-aa2
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-aa2
+     Canvas X: 1310123.0043529677
+     Canvas Y: 457004.1691299543
+     Downstream: J-aa2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-aa2
+     Canvas X: 1309760.0709449658
+     Canvas Y: 456932.93126265693
+     Downstream: in-aa2
 End:
 
 Diversion: in-aa2
      Canvas X: 1309755.1679701675
      Canvas Y: 456818.03287421184
+     Downstream: r-aa2
 
      Diverter: None
      End Diverter:
+End:
+
+Reach: r-aa2
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     From Canvas X: 1309755.1679701675
+     From Canvas Y: 456818.03287421184
+     Downstream: J-aa3MM
+
+     Route: Lag
+     Channel Loss: None
+End:
+
+Source: S-aa3MM
+     Canvas X: 1309772.7951612894
+     Canvas Y: 456308.5914756112
+     Downstream: loc-aa3MM
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-aa3MM
+     Canvas X: 1309452.7724225183
+     Canvas Y: 456244.58692785696
+     Downstream: J-aa3MM
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-aa4
+     Canvas X: 1308321.0301623489
+     Canvas Y: 456108.1054613953
+     Downstream: loc-aa4
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-aa4
+     Canvas X: 1308508.1203788612
+     Canvas Y: 456039.17748689075
+     Downstream: J-aa3MM
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-aa3MM
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     Downstream: in-aa3M
 End:
 
 Diversion: in-aa3M
-     Canvas X: 1308919.0424615317
-     Canvas Y: 456105.16206371173
+     Canvas X: 1308823.2196908821
+     Canvas Y: 455719.15474811965
+     Downstream: r-aa3M
 
      Diverter: None
      End Diverter:
 End:
 
-Diversion: in-z1
-     Canvas X: 1307069.0837503986
-     Canvas Y: 457208.36177623086
+Reach: r-aa3M
+     Canvas X: 1308896.4251997317
+     Canvas Y: 455382.01455017616
+     From Canvas X: 1308823.2196908821
+     From Canvas Y: 455719.15474811965
+     Downstream: J-aa5
 
-     Diverter: None
-     End Diverter:
+     Route: Lag
+     Channel Loss: None
 End:
 
-Source: S-acMM2a
-     Canvas X: 1309879.5830416626
-     Canvas Y: 461293.0147326973
-     Downstream: loc-acMM2a
+Source: S-aa5
+     Canvas X: 1309403.538155015
+     Canvas Y: 455721.73099594854
+     Downstream: loc-aa5
 
      Flow Method: ZERO_FLOW
      End Flow Method:
 End:
 
-Diversion: loc-acMM2a
-     Canvas X: 1309839.6773722128
-     Canvas Y: 460950.96613741154
-     Downstream: J-acMM2a
+Diversion: loc-aa5
+     Canvas X: 1309373.9975945132
+     Canvas Y: 455549.4110596872
+     Downstream: J-aa5
 
      Diverter: None
      End Diverter:
 End:
 
-Junction: J-acMM2a
-     Canvas X: 1309822.4424363794
-     Canvas Y: 460578.1341518176
-     Label X: 0.0
-     Label Y: -1.0
-     Downstream: in-acMM2a
+Junction: J-aa5
+     Canvas X: 1308896.4251997317
+     Canvas Y: 455382.01455017616
+     Downstream: in-aa5
 End:
 
-Diversion: in-acMM2a
-     Canvas X: 1309816.874132527
-     Canvas Y: 460429.6814869189
-
-     Diverter: None
-     End Diverter:
-End:
-
-Source: S-MM5
-     Canvas X: 1310368.2532355178
-     Canvas Y: 457756.87836513
-
-     Flow Method: ZERO_FLOW
-     End Flow Method:
-End:
-
-Diversion: loc-MM5
-     Canvas X: 1310364.2865122645
-     Canvas Y: 457625.97649777064
+Diversion: in-aa5
+     Canvas X: 1308866.8846392299
+     Canvas Y: 455194.92433366383
 
      Diverter: None
      End Diverter:
 End:
 
 Basin Schematic Properties:
-     Last View N: 459512.06659745914
-     Last View S: 458463.1175719164
-     Last View W: 1308636.8064787912
-     Last View E: 1310409.7583643554
+     Last View N: 459027.6975243375
+     Last View S: 456415.2581898891
+     Last View W: 1308042.1515408508
+     Last View E: 1310904.4763768553
      Maximum View N: 465388.4193821251
      Maximum View S: 453439.3490349956
      Maximum View W: 1305692.237775624
      Maximum View E: 1310959.986900523
      Extent Method: Maps
      Buffer: 5
-     Draw Icons: Yes
+     Draw Icons: No
      Draw Icon Labels: Yes
      Draw Map Objects: No
      Draw Gridlines: No
-     Draw Flow Direction: No
+     Draw Flow Direction: Yes
      Fix Element Locations: No
      Fix Hydrologic Order: No
      Map: hec.map.dxf.DxfMap
