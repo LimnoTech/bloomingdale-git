@@ -1,6 +1,6 @@
 Basin: Bloomingdale
      Last Modified Date: 27 September 2013
-     Last Modified Time: 20:05:25
+     Last Modified Time: 20:42:32
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -24,24 +24,14 @@ Junction: J-aa2
      Canvas Y: 456932.93126265693
 End:
 
-Junction: J-MSF2
-     Canvas X: 1309760.0709449658
-     Canvas Y: 457366.9484077697
-End:
-
 Junction: J-MM5
-     Canvas X: 1309751.5608048656
-     Canvas Y: 457775.43513258174
+     Canvas X: 1309733.5775149877
+     Canvas Y: 457824.3126604363
 End:
 
 Junction: J-MM4
      Canvas X: 1309743.0506647653
      Canvas Y: 458450.8520788832
-End:
-
-Junction: J-MM6
-     Canvas X: 1309751.5608048656
-     Canvas Y: 458841.4951587562
 End:
 
 Junction: J-aa3MM
@@ -89,8 +79,8 @@ Diversion: in-MM1
 End:
 
 Source: S-MM8
-     Canvas X: 1308767.925106984
-     Canvas Y: 459073.3305383879
+     Canvas X: 1308860.8983992587
+     Canvas Y: 458925.5889315508
      Downstream: loc-MM8
 
      Flow Method: ZERO_FLOW
@@ -98,8 +88,8 @@ Source: S-MM8
 End:
 
 Diversion: loc-MM8
-     Canvas X: 1308773.6259169055
-     Canvas Y: 458879.5030010593
+     Canvas X: 1308817.2644434723
+     Canvas Y: 459020.7902896303
      Downstream: J-MM8
 
      Diverter: None
@@ -107,8 +97,8 @@ Diversion: loc-MM8
 End:
 
 Junction: J-MM8
-     Canvas X: 1308544.2275783503
-     Canvas Y: 459055.36071639386
+     Canvas X: 1308559.427432007
+     Canvas Y: 459080.29113843
      Downstream: in-MM8
 End:
 
@@ -170,6 +160,66 @@ Diversion: in-z2
      End Diverter:
 End:
 
+Source: S-MM6
+     Canvas X: 1309210.2851969996
+     Canvas Y: 459013.1265108757
+     Downstream: loc-MM6
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM6
+     Canvas X: 1309216.2352818795
+     Canvas Y: 458945.6922155694
+     Downstream: J-MM6
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-MM2b
+     Canvas X: 1309305.1714036297
+     Canvas Y: 460002.8082698156
+     Downstream: loc-MM2b
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM2b
+     Canvas X: 1309305.1714036297
+     Canvas Y: 459883.8065722162
+     Downstream: J-MM6
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-MM3
+     Canvas X: 1310142.150010079
+     Canvas Y: 459266.7271313357
+     Downstream: loc-MM3
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM3
+     Canvas X: 1310106.4495007992
+     Canvas Y: 459135.82526397635
+     Downstream: J-MM6
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM6
+     Canvas X: 1309751.5608048656
+     Canvas Y: 458841.4951587562
+     Downstream: in-MM6
+End:
+
 Diversion: in-MM6
      Canvas X: 1309755.1679701675
      Canvas Y: 458730.706237794
@@ -194,9 +244,33 @@ Diversion: in-MM5
      End Diverter:
 End:
 
+Source: S-MSF2
+     Canvas X: 1309483.6739500288
+     Canvas Y: 458501.5344334409
+     Downstream: loc-MSF2
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MSF2
+     Canvas X: 1309487.6406732823
+     Canvas Y: 458346.8322265617
+     Downstream: J-MSF2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MSF2
+     Canvas X: 1309760.0709449658
+     Canvas Y: 457366.9484077697
+     Downstream: in-MSF2
+End:
+
 Diversion: in-MSF2
-     Canvas X: 1309683.0881849402
-     Canvas Y: 457320.56235414895
+     Canvas X: 1309622.5092638948
+     Canvas Y: 457328.4722537722
 
      Diverter: None
      End Diverter:
@@ -260,11 +334,27 @@ Diversion: in-acMM2a
      End Diverter:
 End:
 
+Source: S-MM5
+     Canvas X: 1310368.2532355178
+     Canvas Y: 457756.87836513
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM5
+     Canvas X: 1310364.2865122645
+     Canvas Y: 457625.97649777064
+
+     Diverter: None
+     End Diverter:
+End:
+
 Basin Schematic Properties:
-     Last View N: 459232.1492983378
-     Last View S: 456210.8064158888
-     Last View W: 1304702.7725655125
-     Last View E: 1309018.9766832967
+     Last View N: 459512.06659745914
+     Last View S: 458463.1175719164
+     Last View W: 1308636.8064787912
+     Last View E: 1310409.7583643554
      Maximum View N: 465388.4193821251
      Maximum View S: 453439.3490349956
      Maximum View W: 1305692.237775624
