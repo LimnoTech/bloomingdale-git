@@ -1,6 +1,6 @@
 Basin: Bloomingdale
      Last Modified Date: 30 September 2013
-     Last Modified Time: 15:16:24
+     Last Modified Time: 16:12:18
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -258,8 +258,8 @@ Source: S-z1
 End:
 
 Diversion: loc-z1
-     Canvas X: 1306730.763321994
-     Canvas Y: 457658.9848877474
+     Canvas X: 1306713.2064917064
+     Canvas Y: 457594.4403874338
      Downstream: J-z1
 
      Diverter: None
@@ -273,8 +273,8 @@ Junction: J-z1
 End:
 
 Diversion: in-z1
-     Canvas X: 1307282.1871180306
-     Canvas Y: 457215.87648021826
+     Canvas X: 1307161.4400070978
+     Canvas Y: 457241.73204745376
      Downstream: R-z1
 
      Diverter: None
@@ -284,8 +284,8 @@ End:
 Reach: R-z1
      Canvas X: 1308818.2962641318
      Canvas Y: 455916.0918181326
-     From Canvas X: 1307282.1871180306
-     From Canvas Y: 457215.87648021826
+     From Canvas X: 1307161.4400070978
+     From Canvas Y: 457241.73204745376
      Downstream: J-aa3MM
 
      Route: Kinematic Wave
@@ -730,10 +730,10 @@ Diversion: in-aa5
 End:
 
 Basin Schematic Properties:
-     Last View N: 457982.48515656043
-     Last View S: 454580.3192938361
-     Last View W: 1307319.9840189142
-     Last View E: 1310390.2312608848
+     Last View N: 461608.8798263983
+     Last View S: 459264.83898361406
+     Last View W: 1306287.017247564
+     Last View E: 1310659.1310452335
      Maximum View N: 465388.4193821251
      Maximum View S: 453439.3490349956
      Maximum View W: 1305692.237775624
