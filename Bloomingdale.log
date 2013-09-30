@@ -1,18 +1,3 @@
-NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 27Sep2013, 16:45:44.
-NOTE 10179:  Opened basin model "Bloomingdale" at time 27Sep2013, 16:45:46.
-NOTE 40043:  The basin model contains 13 elements with no downstream connection: J-aa2, in-MM1, in-MM8, in-z2, in-MM6, in-MM4, in-MM5, in-MSF2, in-aa2, in-aa3M, in-z1, in-acMM2a, in-MSF1
-WARNING 40031:  Element name "in-aa2" is already in use.
-NOTE 40043:  The basin model contains 13 elements with no downstream connection: in-MM1, in-MM8, in-z2, in-MM6, in-MM4, in-MM5, in-MSF2, in-aa2, in-aa3M, in-z1, in-acMM2a, in-MSF1, in-aa5
-NOTE 40043:  The basin model contains 13 elements with no downstream connection: in-MM1, in-MM8, in-z2, in-MM6, in-MM4, in-MM5, in-MSF2, in-aa2, in-aa3M, in-z1, in-acMM2a, in-MSF1, in-aa5
-NOTE 40043:  The basin model contains 24 elements with no downstream connection: in-MM1, in-z2, in-acMM2a, in-MM8, in-MM6, in-MM4, in-MM5, in-aa2, in-aa3M, in-z1, in-MSF1, in-aa5, r-MM1, r-MM8, R-z2, R-z1, R-MSF1, r-aa3M, r-MSF2, r-aa2, r-MM5, r-MM4, r-MM6, r-MM2a
-WARNING 10602:  Invalid time window for gage "g-z2".
-NOTE 10604:  289 missing or invalid values for gage "g-z2".
-NOTE 10604:  289 missing or invalid values for gage "g-z2".
-NOTE 10604:  289 missing or invalid values for gage "g-z2".
-NOTE 10604:  289 missing or invalid values for gage "g-z2".
-WARNING 10611:  Specified time window contains partial intervals for gage "g-z2".  End time adjusted to 03Jan1989, 23:55.
-NOTE 10604:  193 missing or invalid values for gage "g-z2".
-NOTE 10604:  193 missing or invalid values for gage "g-z2".
-NOTE 10604:  577 missing or invalid values for gage "g-z2".
-NOTE 10604:  2 missing or invalid values for gage "g-z2".
-NOTE 10187:  Closed project "Bloomingdale" at time 27Sep2013, 17:39:30.
+NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 30Sep2013, 10:20:28.
+NOTE 10179:  Opened basin model "Bloomingdale" at time 30Sep2013, 10:20:29.
+NOTE 10180:  Opened meteorologic model "15-yr 24-hr DS" at time 30Sep2013, 11:04:27.
