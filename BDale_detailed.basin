@@ -1,7 +1,7 @@
 Basin: BDale detailed
      Description: inlcudes in and loc inlets
      Last Modified Date: 3 October 2013
-     Last Modified Time: 01:42:39
+     Last Modified Time: 14:55:50
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -112,6 +112,7 @@ Reach: r-MM8
      Canvas Y: 457263.565363603
      From Canvas X: 1308539.4222593352
      From Canvas Y: 458922.9189983999
+     Computation Point: Yes
      Downstream: J-MSF1
 
      Route: Kinematic Wave
@@ -789,9 +790,4 @@ Basin Schematic Properties:
      Draw Flow Direction: Yes
      Fix Element Locations: No
      Fix Hydrologic Order: No
-     Map: hec.map.dxf.DxfMap
-     Map File Name: W:\DC2013\NE_Flooding\Bloomingdale_HECRAS\Bloomingdale_CAD.dxf
-     Minimum Scale: -2147483648
-     Maximum Scale: 2147483647
-     Map Shown: Yes
 End:
