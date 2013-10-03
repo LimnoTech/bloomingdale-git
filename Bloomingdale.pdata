@@ -14,3 +14,14 @@ Table: dummy diversion
      Pathname: //DUMMY DIVERSION/FLOW-DIVERSION///TABLE/
 End:
 
+Table: Table 1
+     Table Type: Inflow-Diversion
+     Last Modified Date: 3 October 2013
+     Last Modified Time: 17:10:05
+     X-Units: CFS
+     Y-Units: CFS
+     Use External DSS File: NO
+     DSS File: Bloomingdale.dss
+     Pathname: //Table 1/FLOW-DIVERSION///TABLE/
+End:
+
