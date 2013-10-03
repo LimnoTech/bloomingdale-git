@@ -1,0 +1,48 @@
+NOTE 10184:  Began computing simulation run "Test1" at time 30Sep2013, 11:16:25.
+NOTE 10171:  Meteorologic model "15-yr 24-hr DS" was not computed. No meteorology data required to compute selected elements in basin model "Bloomingdale".
+NOTE 40049:  Found no parameter problems in basin model "Bloomingdale".
+NOTE 40755:  Kinematic wave volume check for reach "r-MM1".
+     Inflow (cu m): 1,428,016.2078  Initial storage (cu m): 0
+     Outflow (cu m): 1,428,089.6998  Final storage (cu m): 37.3094
+     Percent error: -0.01
+NOTE 40755:  Kinematic wave volume check for reach "r-MM8".
+     Inflow (cu m): 1,515,685.7854  Initial storage (cu m): 0
+     Outflow (cu m): 1,515,474.492  Final storage (cu m): 66.4439
+     Percent error: 0.01
+NOTE 40755:  Kinematic wave volume check for reach "R-MSF1".
+     Inflow (cu m): 1,731,291.8304  Initial storage (cu m): 0
+     Outflow (cu m): 1,731,416.9121  Final storage (cu m): 49.2367
+     Percent error: -0.01
+NOTE 40755:  Kinematic wave volume check for reach "R-z2".
+     Inflow (cu m): 1,781,152.4639  Initial storage (cu m): 0
+     Outflow (cu m): 1,779,628.1577  Final storage (cu m): 165.3529
+     Percent error: 0.08
+NOTE 40755:  Kinematic wave volume check for reach "R-z1".
+     Inflow (cu m): 2,786,726.3208  Initial storage (cu m): 0
+     Outflow (cu m): 2,786,927.012  Final storage (cu m): 75.2407
+     Percent error: -0.01
+NOTE 40755:  Kinematic wave volume check for reach "r-MM2a".
+     Inflow (cu m): 735,951.216  Initial storage (cu m): 0
+     Outflow (cu m): 735,677.8513  Final storage (cu m): 10.1907
+     Percent error: 0.04
+NOTE 40755:  Kinematic wave volume check for reach "r-MM6".
+     Inflow (cu m): 1,758,889.24  Initial storage (cu m): 0
+     Outflow (cu m): 1,758,972.9799  Final storage (cu m): 16.5513
+     Percent error: -0.01
+NOTE 40755:  Kinematic wave volume check for reach "r-MM5".
+     Inflow (cu m): 2,067,306.2029  Initial storage (cu m): 0
+     Outflow (cu m): 2,067,370.7984  Final storage (cu m): 17.3707
+     Percent error: -0
+NOTE 40755:  Kinematic wave volume check for reach "r-MSF2".
+     Inflow (cu m): 2,267,963.1905  Initial storage (cu m): 0
+     Outflow (cu m): 2,267,981.9084  Final storage (cu m): 10.4753
+     Percent error: -0
+NOTE 40755:  Kinematic wave volume check for reach "r-aa2".
+     Inflow (cu m): 2,549,765.7402  Initial storage (cu m): 0
+     Outflow (cu m): 2,549,911.5533  Final storage (cu m): 43.9581
+     Percent error: -0.01
+NOTE 40755:  Kinematic wave volume check for reach "r-aa3M".
+     Inflow (cu m): 7,953,553.5692  Initial storage (cu m): 0
+     Outflow (cu m): 7,953,760.6882  Final storage (cu m): 34.8103
+     Percent error: -0
+NOTE 10185:  Finished computing simulation run "Test1" at time 30Sep2013, 11:16:26.

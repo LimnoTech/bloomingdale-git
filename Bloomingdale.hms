@@ -10,9 +10,19 @@ Precipitation: 15-yr 24-hr DS
      Description: 
 End:
 
-Basin: Bloomingdale
-     FileName: Bloomingdale.basin
+Basin: B_Dale loc only
+     FileName: B_Dale_loc_only.basin
+     Description: local inlets only, no inline
+End:
+
+Basin: BDale base model
+     FileName: BDale_base_model.basin
      Description: 
+End:
+
+Basin: BDale detailed
+     FileName: BDale_detailed.basin
+     Description: inlcudes in and loc inlets
 End:
 
 Control: 15yr24hr

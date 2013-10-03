@@ -1,0 +1,16 @@
+Meteorology: 15-yr 24-hr DS
+     Last Modified Date: 26 September 2013
+     Last Modified Time: 15:03:54
+     Version: 3.5
+     Unit System: Metric
+     Precipitation Method: Specified Average
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: No Evapotranspiration
+End:
+
+Precip Method Parameters: Specified Average
+     Allow Depth Override: No
+     Set Missing Data to Zero: Yes
+End:

@@ -1,0 +1,757 @@
+Basin: BDale_local_only
+     Description: local inlets only, no inline
+     Last Modified Date: 1 October 2013
+     Last Modified Time: 17:30:14
+     Version: 3.5
+     Filepath Separator: \
+     Unit System: English
+     Missing Flow To Zero: No
+     Enable Flow Ratio: Yes
+     Allow Blending: No
+     Compute Local Flow At Junctions: Yes
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Source: S-MM1
+     Canvas X: 1308783.847400847
+     Canvas Y: 460716.00452679413
+     Area: 0.159
+     Downstream: loc-MM1
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM1
+     End Flow Method:
+End:
+
+Diversion: loc-MM1
+     Canvas X: 1308779.326726827
+     Canvas Y: 460340.97947581875
+     Downstream: J-MM1
+
+     Diverter: Inflow-Diversion Table
+     Inflow Diversion Table Name: test
+     End Diverter:
+End:
+
+Junction: J-MM1
+     Canvas X: 1308859.138065727
+     Canvas Y: 459985.4601258164
+     Downstream: in-MM1
+End:
+
+Diversion: in-MM1
+     Canvas X: 1308864.8388756483
+     Canvas Y: 459854.34149762354
+     Downstream: r-MM1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MM1
+     Canvas X: 1308559.427432007
+     Canvas Y: 459080.29113843
+     From Canvas X: 1308864.8388756483
+     From Canvas Y: 459854.34149762354
+     Downstream: J-MM8
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 1547
+     Energy Slope: 0.0239173
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-MM8
+     Canvas X: 1308860.8983992587
+     Canvas Y: 458925.5889315508
+     Downstream: loc-MM8
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM8
+     End Flow Method:
+End:
+
+Diversion: loc-MM8
+     Canvas X: 1308817.2644434723
+     Canvas Y: 459020.7902896303
+     Downstream: J-MM8
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM8
+     Canvas X: 1308559.427432007
+     Canvas Y: 459080.29113843
+     Downstream: in-MM8
+End:
+
+Diversion: in-MM8
+     Canvas X: 1308539.4222593352
+     Canvas Y: 458922.9189983999
+     Downstream: r-MM8
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MM8
+     Canvas X: 1308871.5160462926
+     Canvas Y: 457263.565363603
+     From Canvas X: 1308539.4222593352
+     From Canvas Y: 458922.9189983999
+     Downstream: J-MSF1
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 2184
+     Energy Slope: 0.0151099
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-MSF1
+     Canvas X: 1309118.6252959014
+     Canvas Y: 458244.872671036
+     Downstream: loc-MSF1
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MSF1
+     End Flow Method:
+End:
+
+Diversion: loc-MSF1
+     Canvas X: 1309148.1658564035
+     Canvas Y: 457983.9310532688
+     Downstream: J-MSF1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MSF1
+     Canvas X: 1308871.5160462926
+     Canvas Y: 457263.565363603
+     Downstream: in-MSF1
+End:
+
+Diversion: in-MSF1
+     Canvas X: 1308867.530531635
+     Canvas Y: 457132.1782254627
+     Downstream: R-MSF1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: R-MSF1
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     From Canvas X: 1308867.530531635
+     From Canvas Y: 457132.1782254627
+     Downstream: J-aa3MM
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 1570
+     Energy Slope: 0.0207006
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-z2
+     Canvas X: 1307331.3210067842
+     Canvas Y: 460460.6964841687
+     Area: 0.148
+     Downstream: loc-z2
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-z2
+     End Flow Method:
+End:
+
+Diversion: loc-z2
+     Canvas X: 1307291.4153373342
+     Canvas Y: 460141.45112856873
+     Downstream: J-z2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-MM7
+     Canvas X: 1308140.836015627
+     Canvas Y: 459529.39533210214
+     Downstream: loc-MM7
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM7
+     End Flow Method:
+End:
+
+Diversion: loc-MM7
+     Canvas X: 1308135.1352057057
+     Canvas Y: 459346.9694146164
+     Downstream: J-z2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-z2
+     Canvas X: 1307251.5967632756
+     Canvas Y: 459751.6192812122
+     Downstream: in-z2
+End:
+
+Diversion: in-z2
+     Canvas X: 1307188.8007587485
+     Canvas Y: 459598.25766091666
+     Downstream: R-z2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: R-z2
+     Canvas X: 1307163.3789836175
+     Canvas Y: 457462.57699109655
+     From Canvas X: 1307188.8007587485
+     From Canvas Y: 459598.25766091666
+     Downstream: J-z1
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 4000
+     Energy Slope: 0.0105
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-z1
+     Canvas X: 1306720.9164684936
+     Canvas Y: 457782.07055650547
+     Downstream: loc-z1
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-z1
+     End Flow Method:
+End:
+
+Diversion: loc-z1
+     Canvas X: 1306730.763321994
+     Canvas Y: 457658.9848877474
+     Downstream: J-z1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-z1
+     Canvas X: 1307163.3789836175
+     Canvas Y: 457462.57699109655
+     Downstream: in-z1
+End:
+
+Diversion: in-z1
+     Canvas X: 1307282.1871180306
+     Canvas Y: 457215.87648021826
+     Downstream: R-z1
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: R-z1
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     From Canvas X: 1307282.1871180306
+     From Canvas Y: 457215.87648021826
+     Downstream: J-aa3MM
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 1688
+     Energy Slope: 0.0136256
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-MM2a
+     Canvas X: 1309879.5830416626
+     Canvas Y: 461293.0147326973
+     Area: 0.0891
+     Downstream: loc-MM2a
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM2a
+     End Flow Method:
+End:
+
+Diversion: loc-MM2a
+     Canvas X: 1309839.6773722128
+     Canvas Y: 460950.96613741154
+     Downstream: J-MM2a
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM2a
+     Canvas X: 1309822.4424363794
+     Canvas Y: 460578.1341518176
+     Label X: 0.0
+     Label Y: -1.0
+     Downstream: in-MM2a
+End:
+
+Diversion: in-MM2a
+     Canvas X: 1309816.874132527
+     Canvas Y: 460429.6814869189
+     Downstream: r-MM2a
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MM2a
+     Canvas X: 1309751.5608048656
+     Canvas Y: 458841.4951587562
+     From Canvas X: 1309816.874132527
+     From Canvas Y: 460429.6814869189
+     Downstream: J-MM6
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 2016
+     Energy Slope: 0.0158730
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-MM6
+     Canvas X: 1309212.1294921418
+     Canvas Y: 459033.6810648342
+     Downstream: loc-MM6
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM6
+     End Flow Method:
+End:
+
+Diversion: loc-MM6
+     Canvas X: 1309216.2352818795
+     Canvas Y: 458945.6922155694
+     Downstream: J-MM6
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-MM2b
+     Canvas X: 1309305.1714036297
+     Canvas Y: 460002.8082698156
+     Downstream: loc-MM2b
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM2b
+     End Flow Method:
+End:
+
+Diversion: loc-MM2b
+     Canvas X: 1309305.1714036297
+     Canvas Y: 459883.8065722162
+     Downstream: J-MM6
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-MM3
+     Canvas X: 1310142.150010079
+     Canvas Y: 459266.7271313357
+     Downstream: loc-MM3
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM3
+     End Flow Method:
+End:
+
+Diversion: loc-MM3
+     Canvas X: 1310106.4495007992
+     Canvas Y: 459135.82526397635
+     Downstream: J-MM6
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM6
+     Canvas X: 1309751.5608048656
+     Canvas Y: 458841.4951587562
+     Downstream: in-MM6
+End:
+
+Diversion: in-MM6
+     Canvas X: 1309755.1679701675
+     Canvas Y: 458730.706237794
+     Downstream: r-MM6
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MM6
+     Canvas X: 1309777.7185880397
+     Canvas Y: 458024.7825216351
+     From Canvas X: 1309755.1679701675
+     From Canvas Y: 458730.706237794
+     Downstream: J-MM5
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 888
+     Energy Slope: 0.027
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-MM5
+     Canvas X: 1310368.2532355178
+     Canvas Y: 457756.87836513
+     Downstream: loc-MM5
+
+     Flow Method: ZERO_FLOW
+     End Flow Method:
+End:
+
+Diversion: loc-MM5
+     Canvas X: 1310364.2865122645
+     Canvas Y: 457625.97649777064
+     Downstream: J-MM5
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-MM4
+     Canvas X: 1310231.319741475
+     Canvas Y: 458545.20170280576
+     Downstream: loc-MM4
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM4
+     End Flow Method:
+End:
+
+Diversion: loc-MM4
+     Canvas X: 1310236.2431682253
+     Canvas Y: 458402.42232704634
+     Downstream: J-MM5
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MM5
+     Canvas X: 1309777.7185880397
+     Canvas Y: 458024.7825216351
+     Downstream: in-MM5
+End:
+
+Diversion: in-MM5
+     Canvas X: 1309812.1825752922
+     Canvas Y: 457906.6202796273
+     Downstream: r-MM5
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MM5
+     Canvas X: 1309777.7185880397
+     Canvas Y: 457591.2195847887
+     From Canvas X: 1309812.1825752922
+     From Canvas Y: 457906.6202796273
+     Downstream: J-MSF2
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 617
+     Energy Slope: 0.0081037
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-MSF2
+     Canvas X: 1309483.6739500288
+     Canvas Y: 458501.5344334409
+     Downstream: loc-MSF2
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MSF2
+     End Flow Method:
+End:
+
+Diversion: loc-MSF2
+     Canvas X: 1309487.6406732823
+     Canvas Y: 458346.8322265617
+     Downstream: J-MSF2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-MSF2
+     Canvas X: 1309777.7185880397
+     Canvas Y: 457591.2195847887
+     Downstream: in-MSF2
+End:
+
+Diversion: in-MSF2
+     Canvas X: 1309758.0248810386
+     Canvas Y: 457399.20594152604
+     Downstream: r-MSF2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-MSF2
+     Canvas X: 1309760.0709449658
+     Canvas Y: 456932.93126265693
+     From Canvas X: 1309758.0248810386
+     From Canvas Y: 457399.20594152604
+     Downstream: J-aa2
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 398
+     Energy Slope: 0.0100503
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-aa2
+     Canvas X: 1310093.4637924659
+     Canvas Y: 457132.17822546273
+     Downstream: loc-aa2
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-aa2
+     End Flow Method:
+End:
+
+Diversion: loc-aa2
+     Canvas X: 1310123.0043529677
+     Canvas Y: 457004.1691299543
+     Downstream: J-aa2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-aa2
+     Canvas X: 1309760.0709449658
+     Canvas Y: 456932.93126265693
+     Downstream: in-aa2
+End:
+
+Diversion: in-aa2
+     Canvas X: 1309755.1679701675
+     Canvas Y: 456818.03287421184
+     Downstream: r-aa2
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-aa2
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     From Canvas X: 1309755.1679701675
+     From Canvas Y: 456818.03287421184
+     Downstream: J-aa3MM
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 2060
+     Energy Slope: 0.0196602
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-aa3MM
+     Canvas X: 1309772.7951612894
+     Canvas Y: 456308.5914756112
+     Downstream: loc-aa3MM
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-aa3M
+     End Flow Method:
+End:
+
+Diversion: loc-aa3MM
+     Canvas X: 1309452.7724225183
+     Canvas Y: 456244.58692785696
+     Downstream: J-aa3MM
+
+     Diverter: None
+     End Diverter:
+End:
+
+Source: S-aa4
+     Canvas X: 1308321.0301623489
+     Canvas Y: 456108.1054613953
+     Downstream: loc-aa4
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-aa4
+     End Flow Method:
+End:
+
+Diversion: loc-aa4
+     Canvas X: 1308508.1203788612
+     Canvas Y: 456039.17748689075
+     Downstream: J-aa3MM
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-aa3MM
+     Canvas X: 1308818.2962641318
+     Canvas Y: 455916.0918181326
+     Downstream: in-aa3M
+End:
+
+Diversion: in-aa3M
+     Canvas X: 1308823.2196908821
+     Canvas Y: 455719.15474811965
+     Downstream: r-aa3M
+
+     Diverter: None
+     End Diverter:
+End:
+
+Reach: r-aa3M
+     Canvas X: 1308896.4251997317
+     Canvas Y: 455382.01455017616
+     From Canvas X: 1308823.2196908821
+     From Canvas Y: 455719.15474811965
+     Downstream: J-aa5
+
+     Route: Kinematic Wave
+     Channel: Kinematic Wave
+     Length: 400
+     Energy Slope: 0.008
+     Shape: Trapezoid
+     Mannings n: 0.016
+     Number of Increments: 2
+     Width: 35
+     Side Slope: 0.5
+     Channel Loss: None
+End:
+
+Source: S-aa5
+     Canvas X: 1309423.4153238472
+     Canvas Y: 455729.3733771498
+     Downstream: loc-aa5
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-aa5
+     End Flow Method:
+End:
+
+Diversion: loc-aa5
+     Canvas X: 1309373.9975945132
+     Canvas Y: 455549.4110596872
+     Downstream: J-aa5
+
+     Diverter: None
+     End Diverter:
+End:
+
+Junction: J-aa5
+     Canvas X: 1308896.4251997317
+     Canvas Y: 455382.01455017616
+     Downstream: in-aa5
+End:
+
+Diversion: in-aa5
+     Canvas X: 1308866.8846392299
+     Canvas Y: 455194.92433366383
+
+     Diverter: None
+     End Diverter:
+End:
+
+Basin Schematic Properties:
+     Last View N: 461014.1027700306
+     Last View S: 459174.22818965424
+     Last View W: 1306626.865114159
+     Last View E: 1308021.419732406
+     Maximum View N: 461445.4669926731
+     Maximum View S: 455042.472073688
+     Maximum View W: 1306629.733049318
+     Maximum View E: 1310459.4366546934
+     Extent Method: Elements
+     Buffer: 5
+     Draw Icons: Yes
+     Draw Icon Labels: Yes
+     Draw Map Objects: No
+     Draw Gridlines: No
+     Draw Flow Direction: Yes
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+     Map: hec.map.dxf.DxfMap
+     Map File Name: W:\DC2013\NE_Flooding\Bloomingdale_HECRAS\Bloomingdale_CAD.dxf
+     Minimum Scale: -2147483648
+     Maximum Scale: 2147483647
+     Map Shown: Yes
+End:

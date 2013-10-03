@@ -1,0 +1,17 @@
+Paired Data Manager: Bloomingdale
+     Version: 3.5
+     Filepath Separator: \
+End:
+
+Table: test
+     Table Type: Inflow-Diversion
+     Description: test
+     Last Modified Date: 1 October 2013
+     Last Modified Time: 15:55:45
+     X-Units: CFS
+     Y-Units: CFS
+     Use External DSS File: NO
+     DSS File: Bloomingdale.dss
+     Pathname: //TEST/FLOW-DIVERSION///TABLE/
+End:
+
