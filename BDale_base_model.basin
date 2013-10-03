@@ -1,6 +1,6 @@
 Basin: BDale base model
-     Last Modified Date: 2 October 2013
-     Last Modified Time: 19:01:19
+     Last Modified Date: 3 October 2013
+     Last Modified Time: 01:54:28
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -30,8 +30,7 @@ Diversion: loc-MM1
      Canvas Y: 460340.97947581875
      Downstream: J-MM1
 
-     Diverter: Inflow-Diversion Table
-     Inflow Diversion Table Name: dummy diversion
+     Diverter: None
      End Diverter:
 End:
 
@@ -453,7 +452,8 @@ Source: S-MM5
      Canvas Y: 457756.87836513
      Downstream: loc-MM5
 
-     Flow Method: ZERO_FLOW
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-MM5
      End Flow Method:
 End:
 

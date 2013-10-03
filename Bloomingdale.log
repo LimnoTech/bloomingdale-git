@@ -1,5 +1,10 @@
-NOTE 10008:  Finished opening project "Bloomingdale" in directory "W:\DC2013\NE_Flooding\Bloomingdale_HECRAS\updated_model_VJ" at time 02Oct2013, 20:55:15.
-NOTE 10179:  Opened basin model "B_Dale loc only" at time 02Oct2013, 20:55:25.
-NOTE 10179:  Opened basin model "BDale base model" at time 02Oct2013, 20:55:30.
-NOTE 10179:  Opened basin model "BDale detailed" at time 02Oct2013, 20:55:35.
-NOTE 10187:  Closed project "Bloomingdale" at time 02Oct2013, 20:59:09.
+NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 02Oct2013, 21:30:33.
+NOTE 10179:  Opened basin model "B_Dale loc only" at time 02Oct2013, 21:30:37.
+NOTE 10179:  Opened basin model "BDale base model" at time 02Oct2013, 21:30:45.
+NOTE 10179:  Opened basin model "BDale detailed" at time 02Oct2013, 21:30:48.
+NOTE 10181:  Opened control specifications "15yr24hr" at time 02Oct2013, 21:35:23.
+NOTE 10180:  Opened meteorologic model "15-yr 24-hr DS" at time 02Oct2013, 21:35:23.
+NOTE 10179:  Opened basin model "BDale base model" at time 02Oct2013, 21:35:31.
+NOTE 10179:  Opened basin model "BDale detailed" at time 02Oct2013, 21:35:34.
+NOTE 10179:  Opened basin model "BDale base model" at time 02Oct2013, 21:35:36.
+NOTE 10179:  Opened basin model "BDale detailed" at time 02Oct2013, 21:35:38.
