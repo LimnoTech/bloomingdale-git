@@ -1,4 +1,4 @@
-NOTE 10184:  Began computing simulation run "SS1" at time 03Oct2013, 10:55:50.
+NOTE 10184:  Began computing simulation run "SS1" at time 03Oct2013, 11:07:22.
 NOTE 10171:  Meteorologic model "15-yr 24-hr DS" was not computed. No meteorology data required to compute selected elements in basin model "BDale detailed".
 NOTE 40049:  Found no parameter problems in basin model "BDale detailed".
 WARNING 42803:  Computed diversion flow exceeded inflow for 777 time intervals at element "loc-MM1"; diversion flow set to inflow.
@@ -66,4 +66,4 @@ NOTE 40755:  Kinematic wave volume check for reach "r-aa3M".
      Outflow (cu m): 1,137,012.9269  Final storage (cu m): 0.3042
      Percent error: -0.01
 WARNING 42803:  Computed diversion flow exceeded inflow for 1421 time intervals at element "in-aa5"; diversion flow set to inflow.
-NOTE 10185:  Finished computing simulation run "SS1" at time 03Oct2013, 10:55:52.
+NOTE 10185:  Finished computing simulation run "SS1" at time 03Oct2013, 11:07:23.
