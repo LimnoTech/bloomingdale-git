@@ -1,7 +1,7 @@
 Basin: BDale detailed
      Description: inlcudes in and loc inlets
      Last Modified Date: 3 October 2013
-     Last Modified Time: 16:22:11
+     Last Modified Time: 16:30:21
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -49,6 +49,7 @@ Diversion: in-MM1
      Downstream: r-MM1
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -105,6 +106,7 @@ Diversion: in-MM8
      Downstream: r-MM8
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -144,6 +146,7 @@ Diversion: loc-MSF1
      Downstream: J-MSF1
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -356,6 +359,7 @@ Diversion: in-MM2a
      Downstream: r-MM2a
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -395,6 +399,7 @@ Diversion: loc-MM6
      Downstream: J-MM6
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -588,6 +593,7 @@ Diversion: in-MSF2
      Downstream: r-MSF2
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -627,6 +633,7 @@ Diversion: loc-aa2
      Downstream: J-aa2
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -721,6 +728,7 @@ Diversion: in-aa3M
      Downstream: r-aa3M
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
@@ -760,6 +768,7 @@ Diversion: loc-aa5
      Downstream: J-aa5
 
      Diverter: Inflow-Diversion Table
+     Maximum Diversion Flow: 1
      Inflow Diversion Table Name: 
      End Diverter:
 End:
