@@ -288,7 +288,7 @@ Gage: Gage 1
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 1/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 1/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 2
@@ -304,7 +304,7 @@ Gage: Gage 2
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 2/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 2/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 3
@@ -320,7 +320,7 @@ Gage: Gage 3
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 3/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 3/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 4
@@ -336,7 +336,7 @@ Gage: Gage 4
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 4/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 4/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 5
@@ -352,7 +352,7 @@ Gage: Gage 5
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 5/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 5/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 6
@@ -368,7 +368,7 @@ Gage: Gage 6
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 6/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 6/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 7
@@ -384,7 +384,7 @@ Gage: Gage 7
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 7/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 7/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 8
@@ -400,7 +400,7 @@ Gage: Gage 8
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 8/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 8/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 9
@@ -416,7 +416,7 @@ Gage: Gage 9
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 9/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 9/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 10
@@ -432,7 +432,7 @@ Gage: Gage 10
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 10/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 10/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 11
@@ -448,7 +448,7 @@ Gage: Gage 11
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 11/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 11/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 12
@@ -464,7 +464,7 @@ Gage: Gage 12
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 12/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 12/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 13
@@ -480,7 +480,7 @@ Gage: Gage 13
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 13/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 13/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 14
@@ -496,7 +496,7 @@ Gage: Gage 14
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 14/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 14/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 15
@@ -512,7 +512,7 @@ Gage: Gage 15
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 15/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 15/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 16
@@ -528,7 +528,7 @@ Gage: Gage 16
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 16/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 16/FLOW//5MIN/GAGE/
 End:
 
 Gage: Gage 17
@@ -544,6 +544,278 @@ Gage: Gage 17
      Start Time: 2 January 1989, 00:10
      End Time: 4 January 1989, 00:00
      DSS File: Bloomingdale.dss
-     Pathname: //Gage 17/FLOW//5MIN/GAGE/
+     Pathname: //GAGE 17/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 18
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 18/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 19
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 19/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 20
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 20/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 21
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 21/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 22
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 22/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 23
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 23/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 24
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 24/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 25
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 25/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 26
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 26/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 27
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 27/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 28
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 28/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 29
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 29/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 30
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 30/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 31
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 31/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 32
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 32/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 33
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 33/FLOW//5MIN/GAGE/
+End:
+
+Gage: Gage 34
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 19:51:30
+     Units System: English
+     Reference Height Units: Feet
+     Reference Height: 33
+     Gage Type: Flow
+     Units: CFS
+     Data Type: INST-VAL
+     Local to Project: YES
+     Start Time: 2 January 1989, 00:10
+     End Time: 4 January 1989, 00:00
+     DSS File: Bloomingdale.dss
+     Pathname: //Gage 34/FLOW//5MIN/GAGE/
 End:
 
