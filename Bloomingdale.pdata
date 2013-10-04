@@ -11,7 +11,7 @@ Table: RI-ELArea
      Y-Units: ACRE
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //RI-ELArea/ELEVATION-AREA///TABLE/
+     Pathname: //RI-ELAREA/ELEVATION-AREA///TABLE/
 End:
 
 Table: RIAEl-Stor
@@ -22,7 +22,7 @@ Table: RIAEl-Stor
      Y-Units: ACRE-FT
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //RIAEl-Stor/ELEVATION-STORAGE///TABLE/
+     Pathname: //RIAEL-STOR/ELEVATION-STORAGE///TABLE/
 End:
 
 Table: dummy diversion
@@ -39,7 +39,7 @@ End:
 Table: RI-ElDist
      Table Type: Stage-Flow
      Last Modified Date: 4 October 2013
-     Last Modified Time: 20:59:59
+     Last Modified Time: 21:11:28
      X-Units: FT
      Y-Units: CFS
      Use External DSS File: NO
