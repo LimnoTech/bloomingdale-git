@@ -3,6 +3,28 @@ Paired Data Manager: Bloomingdale
      Filepath Separator: \
 End:
 
+Table: RI-ELArea
+     Table Type: Elevation-Area
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 20:59:47
+     X-Units: FT
+     Y-Units: ACRE
+     Use External DSS File: NO
+     DSS File: Bloomingdale.dss
+     Pathname: //RI-ELArea/ELEVATION-AREA///TABLE/
+End:
+
+Table: RIAEl-Stor
+     Table Type: Elevation-Storage
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 20:46:28
+     X-Units: FT
+     Y-Units: ACRE-FT
+     Use External DSS File: NO
+     DSS File: Bloomingdale.dss
+     Pathname: //RIAEl-Stor/ELEVATION-STORAGE///TABLE/
+End:
+
 Table: dummy diversion
      Table Type: Inflow-Diversion
      Last Modified Date: 2 October 2013
@@ -14,25 +36,14 @@ Table: dummy diversion
      Pathname: //DUMMY DIVERSION/FLOW-DIVERSION///TABLE/
 End:
 
-Table: Table 1
-     Table Type: Inflow-Diversion
-     Last Modified Date: 3 October 2013
-     Last Modified Time: 17:10:05
-     X-Units: CFS
-     Y-Units: CFS
-     Use External DSS File: NO
-     DSS File: Bloomingdale.dss
-     Pathname: //TABLE 1/FLOW-DIVERSION///TABLE/
-End:
-
-Table: Table 2
-     Table Type: Inflow-Diversion
+Table: RI-ElDist
+     Table Type: Stage-Flow
      Last Modified Date: 4 October 2013
-     Last Modified Time: 19:51:30
-     X-Units: CFS
+     Last Modified Time: 20:59:59
+     X-Units: FT
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //TABLE 2/FLOW-DIVERSION///TABLE/
+     Pathname: //RI-ElDist/STAGE-FLOW///TABLE/
 End:
 

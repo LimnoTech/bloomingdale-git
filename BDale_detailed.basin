@@ -1,7 +1,7 @@
 Basin: BDale detailed
      Description: inlcudes in and loc inlets
-     Last Modified Date: 3 October 2013
-     Last Modified Time: 16:30:21
+     Last Modified Date: 4 October 2013
+     Last Modified Time: 21:00:01
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -247,16 +247,6 @@ Diversion: in-z2
      End Diverter:
 End:
 
-Source: S-z1
-     Canvas X: 1306701.437028898
-     Canvas Y: 457704.2885328661
-     Downstream: loc-z1
-
-     Flow Method: GAGE_FLOW
-     Flow Gage: g-z1
-     End Flow Method:
-End:
-
 Reach: R-z2
      Canvas X: 1307163.3789836175
      Canvas Y: 457462.57699109655
@@ -274,6 +264,16 @@ Reach: R-z2
      Width: 35
      Side Slope: 0.5
      Channel Loss: None
+End:
+
+Source: S-z1
+     Canvas X: 1306701.437028898
+     Canvas Y: 457704.2885328661
+     Downstream: loc-z1
+
+     Flow Method: GAGE_FLOW
+     Flow Gage: g-z1
+     End Flow Method:
 End:
 
 Diversion: loc-z1
@@ -513,12 +513,6 @@ Source: S-MM4
      End Flow Method:
 End:
 
-Junction: J-MM5
-     Canvas X: 1309777.7185880397
-     Canvas Y: 458024.7825216351
-     Downstream: in-MM5
-End:
-
 Diversion: loc-MM4
      Canvas X: 1310236.2431682253
      Canvas Y: 458402.42232704634
@@ -528,6 +522,12 @@ Diversion: loc-MM4
      Maximum Diversion Flow: 14.7
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
+End:
+
+Junction: J-MM5
+     Canvas X: 1309777.7185880397
+     Canvas Y: 458024.7825216351
+     Downstream: in-MM5
 End:
 
 Diversion: in-MM5
@@ -782,6 +782,7 @@ End:
 Diversion: in-aa5
      Canvas X: 1308858.75901116
      Canvas Y: 455194.92433366383
+     Downstream: r-RIFlood
 
      Diverter: Inflow-Diversion Table
      Maximum Diversion Flow: 61.4
@@ -789,11 +790,24 @@ Diversion: in-aa5
      End Diverter:
 End:
 
+Reservoir: r-RIFlood
+     Description: Flooding area on RI Ave
+     Canvas X: 1309096.570795266
+     Canvas Y: 455181.2667596651
+
+     Route: Modified Puls
+     Routing Curve: Elevation-Area-Outflow
+     Initial Elevation: 0
+     Elevation-Area Table: RI-ELArea
+     Elevation-Outflow Table: RI-ElDist
+     Primary Table: Elevation-Outflow
+End:
+
 Basin Schematic Properties:
-     Last View N: 461050.8426161078
-     Last View S: 459289.1517818584
-     Last View W: 1306385.319375493
-     Last View E: 1307923.5121188303
+     Last View N: 456120.5944214432
+     Last View S: 454845.2545710498
+     Last View W: 1308002.357875085
+     Last View E: 1309672.1327307546
      Maximum View N: 461445.4669926731
      Maximum View S: 455042.472073688
      Maximum View W: 1306609.7666237324
