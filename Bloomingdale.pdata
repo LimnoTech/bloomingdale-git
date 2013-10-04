@@ -33,6 +33,6 @@ Table: Table 2
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //Table 2/FLOW-DIVERSION///TABLE/
+     Pathname: //TABLE 2/FLOW-DIVERSION///TABLE/
 End:
 

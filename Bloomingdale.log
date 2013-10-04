@@ -1,18 +1,4 @@
-NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 04Oct2013, 15:51:03.
-NOTE 10179:  Opened basin model "Basin 1" at time 04Oct2013, 15:51:21.
-NOTE 10179:  Opened basin model "Basin 1" at time 04Oct2013, 15:52:16.
-NOTE 10181:  Opened control specifications "15yr24hr" at time 04Oct2013, 15:52:52.
-NOTE 10180:  Opened meteorologic model "15-yr 24-hr DS" at time 04Oct2013, 15:52:52.
-ERROR 10204:  Meteorologic model "15-yr 24-hr DS" is not set up to work with basin model "Basin 1".
-ERROR 10204:  Meteorologic model "15-yr 24-hr DS" is not set up to work with basin model "Basin 1".
-ERROR 10204:  Meteorologic model "15-yr 24-hr DS" is not set up to work with basin model "Basin 1".
-NOTE 10179:  Opened basin model "BDale detailed" at time 04Oct2013, 15:58:08.
-ERROR 40365:  Could not load inflow-diversion table for diversion "in-MM1".
-ERROR 40365:  Could not load inflow-diversion table for diversion "in-MM8".
-ERROR 40365:  Could not load inflow-diversion table for diversion "loc-MSF1".
-ERROR 40365:  Could not load inflow-diversion table for diversion "in-MM2a".
-ERROR 40365:  Could not load inflow-diversion table for diversion "loc-MM6".
-ERROR 40365:  Could not load inflow-diversion table for diversion "in-MSF2".
-ERROR 40365:  Could not load inflow-diversion table for diversion "loc-aa2".
-ERROR 40365:  Could not load inflow-diversion table for diversion "in-aa3M".
-ERROR 40365:  Could not load inflow-diversion table for diversion "loc-aa5".
+NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 04Oct2013, 16:24:30.
+NOTE 10179:  Opened basin model "BDale detailed" at time 04Oct2013, 16:24:32.
+NOTE 10181:  Opened control specifications "15yr24hr" at time 04Oct2013, 16:24:39.
+NOTE 10180:  Opened meteorologic model "15-yr 24-hr DS" at time 04Oct2013, 16:24:39.
