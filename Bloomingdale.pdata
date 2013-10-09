@@ -44,6 +44,6 @@ Table: RI-ElDist
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //RI-ElDist/STAGE-FLOW///TABLE/
+     Pathname: //RI-ELDIST/STAGE-FLOW///TABLE/
 End:
 
