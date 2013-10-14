@@ -748,9 +748,4 @@ Basin Schematic Properties:
      Draw Flow Direction: Yes
      Fix Element Locations: No
      Fix Hydrologic Order: No
-     Map: hec.map.dxf.DxfMap
-     Map File Name: W:\DC2013\NE_Flooding\Bloomingdale_HECRAS\Bloomingdale_CAD.dxf
-     Minimum Scale: -2147483648
-     Maximum Scale: 2147483647
-     Map Shown: Yes
 End:

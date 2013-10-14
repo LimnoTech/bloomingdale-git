@@ -1,7 +1,7 @@
 Basin: BDale detailed
      Description: inlcudes in and loc inlets
-     Last Modified Date: 7 October 2013
-     Last Modified Time: 11:56:01
+     Last Modified Date: 14 October 2013
+     Last Modified Time: 20:49:30
      Version: 3.5
      Filepath Separator: \
      Unit System: English
@@ -641,12 +641,23 @@ End:
 Junction: J-aa2
      Canvas X: 1309760.0709449658
      Canvas Y: 456932.93126265693
+     Downstream: NCap-runoff
+End:
+
+Diversion: NCap-runoff
+     Description: Runoff that is diverted down N Cap and out of model domain
+     Canvas X: 1309851.557331961
+     Canvas Y: 456828.9668979897
      Downstream: in-aa2
+
+     Diverter: Inflow-Diversion Table
+     Inflow Diversion Table Name: 80pctDiv
+     End Diverter:
 End:
 
 Diversion: in-aa2
-     Canvas X: 1309755.3034344024
-     Canvas Y: 456830.1102490392
+     Canvas X: 1309823.153678962
+     Canvas Y: 456691.0062977074
      Downstream: r-aa2
 
      Diverter: Inflow-Diversion Table
@@ -658,8 +669,8 @@ End:
 Reach: r-aa2
      Canvas X: 1308818.2962641318
      Canvas Y: 455916.0918181326
-     From Canvas X: 1309755.3034344024
-     From Canvas Y: 456830.1102490392
+     From Canvas X: 1309823.153678962
+     From Canvas Y: 456691.0062977074
      Downstream: J-aa3MM
 
      Route: Kinematic Wave
@@ -804,10 +815,10 @@ Reservoir: r-RIFlood
 End:
 
 Basin Schematic Properties:
-     Last View N: 459624.0872063342
-     Last View S: 457915.3700871916
-     Last View W: 1308661.5906328035
-     Last View E: 1310351.530640747
+     Last View N: 458866.4829280819
+     Last View S: 457788.2007976278
+     Last View W: 1309240.7308567837
+     Last View E: 1310118.9193960193
      Maximum View N: 461445.4669926731
      Maximum View S: 455042.472073688
      Maximum View W: 1306609.7666237324

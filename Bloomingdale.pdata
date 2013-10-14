@@ -33,7 +33,19 @@ Table: dummy diversion
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //DUMMY DIVERSION/FLOW-DIVERSION///TABLE/
+     Pathname: //dummy diversion/FLOW-DIVERSION///TABLE/
+End:
+
+Table: 80pctDiv
+     Table Type: Inflow-Diversion
+     Description: 80 pct of flow diverted
+     Last Modified Date: 14 October 2013
+     Last Modified Time: 20:24:54
+     X-Units: CFS
+     Y-Units: CFS
+     Use External DSS File: NO
+     DSS File: Bloomingdale.dss
+     Pathname: //80pctDiv/FLOW-DIVERSION///TABLE/
 End:
 
 Table: RI-ElDist
