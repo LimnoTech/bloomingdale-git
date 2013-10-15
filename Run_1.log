@@ -1,4 +1,4 @@
-NOTE 10184:  Began computing simulation run "Run 1" at time 09Oct2013, 16:23:30.
+NOTE 10184:  Began computing simulation run "Run 1" at time 14Oct2013, 22:31:47.
 NOTE 10171:  Meteorologic model "15-yr 24-hr DS" was not computed. No meteorology data required to compute selected elements in basin model "BDale detailed".
 NOTE 40049:  Found no parameter problems in basin model "BDale detailed".
 WARNING 42803:  Computed diversion flow exceeded inflow for 777 time intervals at element "loc-MM1"; diversion flow set to inflow.
@@ -8,20 +8,21 @@ NOTE 40755:  Kinematic wave volume check for reach "r-MM1".
      Outflow (cu m): 0  Final storage (cu m): 0
      Percent error: 0
 WARNING 42803:  Computed diversion flow exceeded inflow for 821 time intervals at element "loc-MM8"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 2 time intervals at element "in-MM8"; diversion flow set to inflow.
+WARNING 42803:  Computed diversion flow exceeded inflow for 4 time intervals at element "in-MM8"; diversion flow set to inflow.
+WARNING 40754:  Total inflow to reach "r-MM8" is zero.
 NOTE 40755:  Kinematic wave volume check for reach "r-MM8".
-     Inflow (cu m): 185.8423  Initial storage (cu m): 0
-     Outflow (cu m): 474.433  Final storage (cu m): 0.3015
-     Percent error: -155.45
-WARNING 42803:  Computed diversion flow exceeded inflow for 517 time intervals at element "loc-MSF1"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 1066 time intervals at element "in-MSF1"; diversion flow set to inflow.
-WARNING 40754:  Total inflow to reach "R-MSF1" is zero.
-NOTE 40755:  Kinematic wave volume check for reach "R-MSF1".
      Inflow (cu m): 0  Initial storage (cu m): 0
      Outflow (cu m): 0  Final storage (cu m): 0
      Percent error: 0
+WARNING 42803:  Computed diversion flow exceeded inflow for 517 time intervals at element "loc-MSF1"; diversion flow set to inflow.
+WARNING 42803:  Computed diversion flow exceeded inflow for 18 time intervals at element "in-MSF1"; diversion flow set to inflow.
+NOTE 40755:  Kinematic wave volume check for reach "R-MSF1".
+     Inflow (cu m): 15.9117  Initial storage (cu m): 0
+     Outflow (cu m): 55.2838  Final storage (cu m): 0.0936
+     Percent error: -248.03
 WARNING 42803:  Computed diversion flow exceeded inflow for 856 time intervals at element "loc-z2"; diversion flow set to inflow.
 WARNING 42803:  Computed diversion flow exceeded inflow for 1247 time intervals at element "loc-MM7"; diversion flow set to inflow.
+WARNING 42803:  Computed diversion flow exceeded inflow for 1 time intervals at element "in-z2"; diversion flow set to inflow.
 WARNING 40754:  Total inflow to reach "R-z2" is zero.
 NOTE 40755:  Kinematic wave volume check for reach "R-z2".
      Inflow (cu m): 0  Initial storage (cu m): 0
@@ -42,39 +43,37 @@ NOTE 40755:  Kinematic wave volume check for reach "r-MM2a".
 WARNING 42803:  Computed diversion flow exceeded inflow for 1114 time intervals at element "loc-MM6"; diversion flow set to inflow.
 WARNING 42803:  Computed diversion flow exceeded inflow for 1511 time intervals at element "loc-MM2b"; diversion flow set to inflow.
 WARNING 42803:  Computed diversion flow exceeded inflow for 513 time intervals at element "loc-MM3"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 22 time intervals at element "in-MM6"; diversion flow set to inflow.
-WARNING 40754:  Total inflow to reach "r-MM6" is zero.
+WARNING 42803:  Computed diversion flow exceeded inflow for 50 time intervals at element "in-MM6"; diversion flow set to inflow.
 NOTE 40755:  Kinematic wave volume check for reach "r-MM6".
-     Inflow (cu m): 0  Initial storage (cu m): 0
-     Outflow (cu m): 0  Final storage (cu m): 0
-     Percent error: 0
+     Inflow (cu m): 134,157.2757  Initial storage (cu m): 0
+     Outflow (cu m): 134,445.3469  Final storage (cu m): 0.0317
+     Percent error: -0.21
 WARNING 42803:  Computed diversion flow exceeded inflow for 978 time intervals at element "loc-MM5"; diversion flow set to inflow.
 WARNING 42803:  Computed diversion flow exceeded inflow for 517 time intervals at element "loc-MM4"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 21 time intervals at element "in-MM5"; diversion flow set to inflow.
+WARNING 42803:  Computed diversion flow exceeded inflow for 1102 time intervals at element "in-MM5"; diversion flow set to inflow.
 NOTE 40755:  Kinematic wave volume check for reach "r-MM5".
-     Inflow (cu m): 19,163.6576  Initial storage (cu m): 0
-     Outflow (cu m): 19,564.2834  Final storage (cu m): 0.0322
-     Percent error: -2.09
+     Inflow (cu m): 205,165.4191  Initial storage (cu m): 0
+     Outflow (cu m): 204,950.2818  Final storage (cu m): 0.0321
+     Percent error: 0.1
 WARNING 42803:  Computed diversion flow exceeded inflow for 503 time intervals at element "loc-MSF2"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 1094 time intervals at element "in-MSF2"; diversion flow set to inflow.
-WARNING 40754:  Total inflow to reach "r-MSF2" is zero.
+WARNING 42803:  Computed diversion flow exceeded inflow for 1076 time intervals at element "in-MSF2"; diversion flow set to inflow.
 NOTE 40755:  Kinematic wave volume check for reach "r-MSF2".
-     Inflow (cu m): 0  Initial storage (cu m): 0
-     Outflow (cu m): 0  Final storage (cu m): 0
-     Percent error: 0
+     Inflow (cu m): 199,287.4114  Initial storage (cu m): 0
+     Outflow (cu m): 199,618.9693  Final storage (cu m): 0.0085
+     Percent error: -0.17
 WARNING 42803:  Computed diversion flow exceeded inflow for 542 time intervals at element "loc-aa2"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 542 time intervals at element "in-aa2"; diversion flow set to inflow.
+WARNING 42803:  Computed diversion flow exceeded inflow for 1097 time intervals at element "in-aa2"; diversion flow set to inflow.
 NOTE 40755:  Kinematic wave volume check for reach "r-aa2".
-     Inflow (cu m): 23,164.1757  Initial storage (cu m): 0
-     Outflow (cu m): 25,834.3243  Final storage (cu m): 0.3382
-     Percent error: -11.53
+     Inflow (cu m): 33,210.9467  Initial storage (cu m): 0
+     Outflow (cu m): 37,031.0617  Final storage (cu m): 0.3613
+     Percent error: -11.5
 WARNING 42803:  Computed diversion flow exceeded inflow for 1068 time intervals at element "loc-aa3MM"; diversion flow set to inflow.
 WARNING 42803:  Computed diversion flow exceeded inflow for 1190 time intervals at element "loc-aa4"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 1091 time intervals at element "in-aa3M"; diversion flow set to inflow.
+WARNING 42803:  Computed diversion flow exceeded inflow for 1083 time intervals at element "in-aa3M"; diversion flow set to inflow.
 NOTE 40755:  Kinematic wave volume check for reach "r-aa3M".
-     Inflow (cu m): 30,663.5176  Initial storage (cu m): 0
-     Outflow (cu m): 30,735.8013  Final storage (cu m): 0.0103
-     Percent error: -0.24
+     Inflow (cu m): 142,294.8199  Initial storage (cu m): 0
+     Outflow (cu m): 142,425.0403  Final storage (cu m): 0.0103
+     Percent error: -0.09
 WARNING 42803:  Computed diversion flow exceeded inflow for 612 time intervals at element "loc-aa5"; diversion flow set to inflow.
-WARNING 42803:  Computed diversion flow exceeded inflow for 1438 time intervals at element "in-aa5"; diversion flow set to inflow.
-NOTE 10185:  Finished computing simulation run "Run 1" at time 09Oct2013, 16:23:32.
+WARNING 42803:  Computed diversion flow exceeded inflow for 1087 time intervals at element "in-aa5"; diversion flow set to inflow.
+NOTE 10185:  Finished computing simulation run "Run 1" at time 14Oct2013, 22:31:51.

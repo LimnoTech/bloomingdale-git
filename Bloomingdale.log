@@ -1,5 +1,4 @@
-NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 14Oct2013, 15:45:42.
-NOTE 10179:  Opened basin model "BDale detailed" at time 14Oct2013, 15:45:52.
-WARNING 42720:  Basin map file "W:\DC2013\NE_Flooding\Bloomingdale_HECRAS\Bloomingdale_CAD.dxf" is missing for basin model "B_Dale loc only".
-WARNING 42720:  Basin map file "W:\DC2013\NE_Flooding\Bloomingdale_HECRAS\Bloomingdale_CAD.dxf" is missing for basin model "BDale base model".
-NOTE 10187:  Closed project "Bloomingdale" at time 14Oct2013, 17:14:33.
+NOTE 10008:  Finished opening project "Bloomingdale" in directory "C:\modeling\HEC-HMS\Bloomingdale" at time 14Oct2013, 22:31:10.
+NOTE 10179:  Opened basin model "BDale detailed" at time 14Oct2013, 22:31:15.
+NOTE 10181:  Opened control specifications "15yr24hr" at time 14Oct2013, 22:31:45.
+NOTE 10180:  Opened meteorologic model "15-yr 24-hr DS" at time 14Oct2013, 22:31:45.

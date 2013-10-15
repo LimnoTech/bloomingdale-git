@@ -33,7 +33,7 @@ Table: dummy diversion
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //dummy diversion/FLOW-DIVERSION///TABLE/
+     Pathname: //DUMMY DIVERSION/FLOW-DIVERSION///TABLE/
 End:
 
 Table: 80pctDiv
@@ -45,7 +45,7 @@ Table: 80pctDiv
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //80pctDiv/FLOW-DIVERSION///TABLE/
+     Pathname: //80PCTDIV/FLOW-DIVERSION///TABLE/
 End:
 
 Table: RI-ElDist
