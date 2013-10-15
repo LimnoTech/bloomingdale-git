@@ -67,7 +67,7 @@ Table: 60pctDiv
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //60pctDiv/FLOW-DIVERSION///TABLE/
+     Pathname: //60PCTDIV/FLOW-DIVERSION///TABLE/
 End:
 
 Table: RI-ElDist
