@@ -25,6 +25,17 @@ Table: RIAEl-Stor
      Pathname: //RIAEL-STOR/ELEVATION-STORAGE///TABLE/
 End:
 
+Table: 100pctDiv
+     Table Type: Inflow-Diversion
+     Last Modified Date: 15 October 2013
+     Last Modified Time: 02:41:47
+     X-Units: CFS
+     Y-Units: CFS
+     Use External DSS File: NO
+     DSS File: Bloomingdale.dss
+     Pathname: //100PCTDIV/FLOW-DIVERSION///TABLE/
+End:
+
 Table: 80pctDiv
      Table Type: Inflow-Diversion
      Description: 80 pct of flow diverted
@@ -48,15 +59,15 @@ Table: dummy diversion
      Pathname: //DUMMY DIVERSION/FLOW-DIVERSION///TABLE/
 End:
 
-Table: 100pctDiv
+Table: 60pctDiv
      Table Type: Inflow-Diversion
      Last Modified Date: 15 October 2013
-     Last Modified Time: 02:41:47
+     Last Modified Time: 02:46:53
      X-Units: CFS
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //100pctDiv/FLOW-DIVERSION///TABLE/
+     Pathname: //60pctDiv/FLOW-DIVERSION///TABLE/
 End:
 
 Table: RI-ElDist
