@@ -282,7 +282,7 @@ Diversion: loc-z1
      Downstream: J-z1
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 23.80209241
+     Maximum Diversion Flow: 298.6945349
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
