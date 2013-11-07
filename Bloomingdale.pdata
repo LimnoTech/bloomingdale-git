@@ -33,7 +33,18 @@ Table: 100pctDiv
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //100PCTDIV/FLOW-DIVERSION///TABLE/
+     Pathname: //100pctDiv/FLOW-DIVERSION///TABLE/
+End:
+
+Table: 60pctDiv
+     Table Type: Inflow-Diversion
+     Last Modified Date: 15 October 2013
+     Last Modified Time: 02:46:53
+     X-Units: CFS
+     Y-Units: CFS
+     Use External DSS File: NO
+     DSS File: Bloomingdale.dss
+     Pathname: //60pctDiv/FLOW-DIVERSION///TABLE/
 End:
 
 Table: 80pctDiv
@@ -59,15 +70,15 @@ Table: dummy diversion
      Pathname: //DUMMY DIVERSION/FLOW-DIVERSION///TABLE/
 End:
 
-Table: 60pctDiv
+Table: 75pctDiv
      Table Type: Inflow-Diversion
-     Last Modified Date: 15 October 2013
-     Last Modified Time: 02:46:53
+     Last Modified Date: 7 November 2013
+     Last Modified Time: 13:39:15
      X-Units: CFS
      Y-Units: CFS
      Use External DSS File: NO
      DSS File: Bloomingdale.dss
-     Pathname: //60PCTDIV/FLOW-DIVERSION///TABLE/
+     Pathname: //75pctDiv/FLOW-DIVERSION///TABLE/
 End:
 
 Table: RI-ElDist
