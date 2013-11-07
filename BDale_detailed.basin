@@ -32,7 +32,7 @@ Diversion: loc-MM1
      Downstream: J-MM1
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 464.169
+     Maximum Diversion Flow: 400
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -89,7 +89,7 @@ Diversion: loc-MM8
      Downstream: J-MM8
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 11.62285504
+     Maximum Diversion Flow: 39.17305375
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -106,7 +106,7 @@ Diversion: in-MM8
      Downstream: r-MM8
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 290.6599644
+     Maximum Diversion Flow: 139.2819689
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -146,7 +146,7 @@ Diversion: loc-MSF1
      Downstream: J-MSF1
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 21.08069256
+     Maximum Diversion Flow: 52.23073834
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -163,7 +163,7 @@ Diversion: in-MSF1
      Downstream: R-MSF1
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 16.41426692
+     Maximum Diversion Flow: 3.941743196
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -204,7 +204,7 @@ Diversion: loc-z2
      Downstream: J-z2
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 464.169
+     Maximum Diversion Flow: 400
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -225,7 +225,7 @@ Diversion: loc-MM7
      Downstream: J-z2
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 103.4991371
+     Maximum Diversion Flow: 24.85441608
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -242,7 +242,7 @@ Diversion: in-z2
      Downstream: R-z2
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 147.0596863
+     Maximum Diversion Flow: 306.8555877
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -282,7 +282,7 @@ Diversion: loc-z1
      Downstream: J-z1
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 132.1560465
+     Maximum Diversion Flow: 398.2593798
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -299,7 +299,7 @@ Diversion: in-z1
      Downstream: R-z1
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 12.93410043
+     Maximum Diversion Flow: 3.106011534
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -340,7 +340,7 @@ Diversion: loc-MM2a
      Downstream: J-MM2a
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 464.169
+     Maximum Diversion Flow: 400
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -399,7 +399,7 @@ Diversion: loc-MM6
      Downstream: J-MM6
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 13.17543285
+     Maximum Diversion Flow: 32.64421146
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -420,7 +420,7 @@ Diversion: loc-MM2b
      Downstream: J-MM6
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 464.169
+     Maximum Diversion Flow: 400
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -441,7 +441,7 @@ Diversion: loc-MM3
      Downstream: J-MM6
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 7.905259709
+     Maximum Diversion Flow: 19.58652688
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -458,7 +458,7 @@ Diversion: in-MM6
      Downstream: r-MM6
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 29.93882893
+     Maximum Diversion Flow: 101.2959774
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -498,7 +498,7 @@ Diversion: loc-MM5
      Downstream: J-MM5
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 7.905259709
+     Maximum Diversion Flow: 19.58652688
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -519,7 +519,7 @@ Diversion: loc-MM4
      Downstream: J-MM5
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 13.17543285
+     Maximum Diversion Flow: 32.64421146
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -536,7 +536,7 @@ Diversion: in-MM5
      Downstream: r-MM5
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 39.51905419
+     Maximum Diversion Flow: 75.23713499
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -576,7 +576,7 @@ Diversion: loc-MSF2
      Downstream: J-MSF2
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 21.08069256
+     Maximum Diversion Flow: 52.23073834
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -593,7 +593,7 @@ Diversion: in-MSF2
      Downstream: r-MSF2
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 11.34652063
+     Maximum Diversion Flow: 39.79484826
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -633,7 +633,7 @@ Diversion: loc-aa2
      Downstream: J-aa2
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 2.597723722
+     Maximum Diversion Flow: 0.62382072
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -661,7 +661,7 @@ Diversion: in-aa2
      Downstream: r-aa2
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 7.372926428
+     Maximum Diversion Flow: 1.770544048
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -701,7 +701,7 @@ Diversion: loc-aa3MM
      Downstream: J-aa3MM
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 10.09132138
+     Maximum Diversion Flow: 2.423342912
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -722,7 +722,7 @@ Diversion: loc-aa4
      Downstream: J-aa3MM
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 22.2838369
+     Maximum Diversion Flow: 5.351269291
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -739,7 +739,7 @@ Diversion: in-aa3M
      Downstream: r-aa3M
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 47.67319462
+     Maximum Diversion Flow: 97.93263438
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -779,7 +779,7 @@ Diversion: loc-aa5
      Downstream: J-aa5
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 16.88520419
+     Maximum Diversion Flow: 4.05483468
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
@@ -796,7 +796,7 @@ Diversion: in-aa5
      Downstream: r-RIFlood
 
      Diverter: Inflow-Diversion Table
-     Maximum Diversion Flow: 53.41319668
+     Maximum Diversion Flow: 135.4414734
      Inflow Diversion Table Name: dummy diversion
      End Diverter:
 End:
