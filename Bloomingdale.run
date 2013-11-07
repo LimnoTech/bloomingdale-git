@@ -6,47 +6,8 @@ Run: Run 1
      Precip: 15-yr 24-hr DS
      Control: 15yr24hr
      Precip Last Execution Date: 7 November 2013
-     Precip Last Execution Time: 17:09:37
+     Precip Last Execution Time: 17:17:19
      Basin Last Execution Date: 7 November 2013
-     Basin Last Execution Time: 17:09:40
-End:
-
-Run: SS1
-     Default Description: Yes
-     Log File: SS1.log
-     DSS File: Bloomingdale.dss
-     Basin: BDale detailed
-     Precip: 15-yr 24-hr DS
-     Control: 15yr24hr
-     Precip Last Execution Date: 3 October 2013
-     Precip Last Execution Time: 01:42:39
-     Basin Last Execution Date: 3 October 2013
-     Basin Last Execution Time: 01:42:43
-End:
-
-Run: SS1-Base
-     Default Description: Yes
-     Log File: SS1_Base.log
-     DSS File: Bloomingdale.dss
-     Basin: BDale base model
-     Precip: 15-yr 24-hr DS
-     Control: 15yr24hr
-     Precip Last Execution Date: 3 October 2013
-     Precip Last Execution Time: 01:54:40
-     Basin Last Execution Date: 3 October 2013
-     Basin Last Execution Time: 01:54:42
-End:
-
-Run: Test1
-     Default Description: Yes
-     Log File: Test1.log
-     DSS File: Bloomingdale.dss
-     Basin: BDale base model
-     Precip: 15-yr 24-hr DS
-     Control: 15yr24hr
-     Precip Last Execution Date: 3 October 2013
-     Precip Last Execution Time: 01:37:11
-     Basin Last Execution Date: 3 October 2013
-     Basin Last Execution Time: 01:37:12
+     Basin Last Execution Time: 17:17:22
 End:
 
