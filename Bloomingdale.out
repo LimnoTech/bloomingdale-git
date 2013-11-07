@@ -1,27 +1,5 @@
     -----DSS---ZOPEN:  Existing File Opened,  File: C:/modeling/HEC-HMS/Bloomingdale/Bloomingdale.dss
                        Unit:   71;  DSS Versions - Software: 6-QF, File: 6-QF
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW-VELOCITY/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW-VELOCITY/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW-VELOCITY/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW-VELOCITY/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW-VELOCITY/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW-VELOCITY/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   29:  //R-Z1/FLOW/03JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/02JAN1989/1MIN/RUN:RUN 1/
- -----DSS--- ZREAD Unit   71; Vers.   58:  //R-Z1/FLOW-IN/03JAN1989/1MIN/RUN:RUN 1/
     -----DSS---ZCLOSE Unit:   71,   File: C:/modeling/HEC-HMS/Bloomingdale/Bloomingdale.dss
                Pointer Utilization:  0.41
                Number of Records:   1365
